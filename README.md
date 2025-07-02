@@ -28,3 +28,23 @@ AuthService is a .NET 6.0-based application designed to manage user accounts and
 1. Clone the repository:
    ```sh
    git clone <repository-url>
+   ```
+
+2. Change directory into the newly cloned project:
+   ```sh
+   cd AuthService
+   ```
+
+3. Restore all packages (CLI/Visual Studio)
+
+   ```sh
+   dotnet restore
+   ```
+
+4. Run appplication (CLI/Visual Studio)
+
+   ```sh
+   dotnet run --project AuthService.API
+   ```
+
+🎉 Enjoy!
